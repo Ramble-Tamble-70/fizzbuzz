@@ -5,6 +5,9 @@ describe 'Fizzbuzz' do
     expect(Fizzbuzz(1)).to eq 1
   end
   it 'return Fizzbuzz when % 5 and 3 is 0' do
-    expect(Fizzbuzz(15)).to eq 'Fizzbuzz'
+    expect(Fizzbuzz(30)).to eq 'Fizzbuzz'
+  end
+  it 'return Fizz when % 3 is 0' do
+    expect(Fizzbuzz(3)).to eq 'Fizz'
   end
 end
